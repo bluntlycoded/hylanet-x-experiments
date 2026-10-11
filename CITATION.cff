@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "HyLANET-X experiments: notebooks and results"
+type: software
+authors:
+  - family-names: Nayak
+    given-names: Rahul
+    affiliation: "School of Computer Science and Engineering (SCOPE), VIT-AP University"
+  - family-names: Reddy
+    given-names: G. Navabharat
+    affiliation: "Symbiosis Institute of Technology, Hyderabad Campus, Symbiosis International (Deemed University)"
+doi: 10.5281/zenodo.23293486
+repository-code: "https://github.com/bluntlycoded/hylanet-x-experiments"
+date-released: 2026-10-11
+keywords:
+  - intrusion detection
+  - IoT security
+  - SCADA
+  - LightGBM
+  - attention
+  - evaluation protocol

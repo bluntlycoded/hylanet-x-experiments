@@ -1,5 +1,7 @@
 # HyLANET-X experiments
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23293486.svg)](https://doi.org/10.5281/zenodo.23293486)
+
 Code and results for an evaluation of HyLANET-X, a hybrid intrusion detection model that combines LightGBM with a neural branch, on four public datasets: CICIDS2017, TON_IoT, IoTID20 and SCADANet.
 
 The question behind the experiments is simple: does adding a neural branch to a tuned gradient-boosting model actually help? To answer it fairly, every model goes through the same leakage-controlled protocol, and the results include tuned tree baselines, five seeds and a time-ordered split.
@@ -97,3 +99,19 @@ Every run is cached in `hylanet_outputs_v2/`, so the notebook can be restarted a
 - The results here come from a server with two NVIDIA L4 GPUs and 256 CPU threads (Python 3.10, PyTorch 2.11, LightGBM 4.7, scikit-learn 1.7.2, Optuna 5.0; see `results/environment.json`). The executed notebook ran with `PARALLEL_WORKERS = 2`.
 - Model size and latency come from `results/tables/efficiency_clean.csv`. To produce it, the seed-42 models were retrained with 16 CPU threads and timed on one CPU thread with nothing else running (section 7b of the notebook). `efficiency.csv` holds the timings measured inside the main runs. Those were taken while other work was running on the machine, so they should not be used.
 - The CICIDS2017 release used here has no timestamps and the TON_IoT file has no `ts` column, so these two datasets only have random-split results.
+
+## Citation
+
+The code and results are archived on Zenodo: https://doi.org/10.5281/zenodo.23293486
+
+```bibtex
+@software{nayak_reddy_hylanetx_2026,
+  author    = {Nayak, Rahul and Reddy, G. Navabharat},
+  title     = {{HyLANET-X} experiments: notebooks and results},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23293486},
+  url       = {https://doi.org/10.5281/zenodo.23293486}
+}
+```
+
