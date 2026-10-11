@@ -1,0 +1,5 @@
+Dataset,Rows,Classes,Numeric columns,Text columns,Attack share,Timestamps,Class names
+CICIDS2017,214555,6,77,0,0.5339,no,"BENIGN, Bot, BruteForce, DoS, PortScan, WebAttack"
+TON_IoT,105283,10,15,24,0.7687,no,"backdoor, ddos, dos, injection, mitm, normal, password, ransomware, scanning, xss"
+IoTID20,157905,5,78,0,0.8304,yes,"DoS, MITM ARP Spoofing, Mirai, Normal, Scan"
+SCADANet,234039,14,27,23,0.7146,yes,"apt_exfil, http_flood, icmp_flood, insider_threat, modbus_abuse, modbus_fdi, normal_traffic, os_scan, port_scan, sql_injection, tcp_ack_flood, tcp_syn_flood, udp_flood, vuln_scan"

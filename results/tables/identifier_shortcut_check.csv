@@ -1,0 +1,4 @@
+Dataset,Identifier columns,Validation macro-F1 from identifiers only
+TON_IoT,"src_ip, dst_ip, src_port",0.7943
+IoTID20,"Flow_ID, Src_IP, Src_Port, Dst_IP",0.676
+SCADANet,"Source, Destination, Tcp_src_port, Udp_srcport, Tcp_stream, Traffic_Category, Time",0.5708

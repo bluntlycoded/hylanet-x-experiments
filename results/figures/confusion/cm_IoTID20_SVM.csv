@@ -1,0 +1,6 @@
+,DoS,MITM ARP Spoofing,Mirai,Normal,Scan
+DoS,5025,5,6,8,2
+MITM ARP Spoofing,0,1017,416,2,209
+Mirai,2,2399,18912,661,1673
+Normal,5,74,210,6102,306
+Scan,0,625,386,86,1346

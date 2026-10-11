@@ -1,0 +1,78 @@
+CICIDS2017 / source,matched column
+Protocol,Protocol
+Flow Duration,Flow_Duration
+Total Fwd Packets,Tot_Fwd_Pkts
+Total Backward Packets,Tot_Bwd_Pkts
+Fwd Packets Length Total,TotLen_Fwd_Pkts
+Bwd Packets Length Total,TotLen_Bwd_Pkts
+Fwd Packet Length Max,Fwd_Pkt_Len_Max
+Fwd Packet Length Min,Fwd_Pkt_Len_Min
+Fwd Packet Length Mean,Fwd_Pkt_Len_Mean
+Fwd Packet Length Std,Fwd_Pkt_Len_Std
+Bwd Packet Length Max,Bwd_Pkt_Len_Max
+Bwd Packet Length Min,Bwd_Pkt_Len_Min
+Bwd Packet Length Mean,Bwd_Pkt_Len_Mean
+Bwd Packet Length Std,Bwd_Pkt_Len_Std
+Flow Bytes/s,Flow_Byts/s
+Flow Packets/s,Flow_Pkts/s
+Flow IAT Mean,Flow_IAT_Mean
+Flow IAT Std,Flow_IAT_Std
+Flow IAT Max,Flow_IAT_Max
+Flow IAT Min,Flow_IAT_Min
+Fwd IAT Total,Fwd_IAT_Tot
+Fwd IAT Mean,Fwd_IAT_Mean
+Fwd IAT Std,Fwd_IAT_Std
+Fwd IAT Max,Fwd_IAT_Max
+Fwd IAT Min,Fwd_IAT_Min
+Bwd IAT Total,Bwd_IAT_Tot
+Bwd IAT Mean,Bwd_IAT_Mean
+Bwd IAT Std,Bwd_IAT_Std
+Bwd IAT Max,Bwd_IAT_Max
+Bwd IAT Min,Bwd_IAT_Min
+Fwd PSH Flags,Fwd_PSH_Flags
+Bwd PSH Flags,Bwd_PSH_Flags
+Fwd URG Flags,Fwd_URG_Flags
+Bwd URG Flags,Bwd_URG_Flags
+Fwd Header Length,Fwd_Header_Len
+Bwd Header Length,Bwd_Header_Len
+Fwd Packets/s,Fwd_Pkts/s
+Bwd Packets/s,Bwd_Pkts/s
+Packet Length Min,Pkt_Len_Min
+Packet Length Max,Pkt_Len_Max
+Packet Length Mean,Pkt_Len_Mean
+Packet Length Std,Pkt_Len_Std
+Packet Length Variance,Pkt_Len_Var
+FIN Flag Count,FIN_Flag_Cnt
+SYN Flag Count,SYN_Flag_Cnt
+RST Flag Count,RST_Flag_Cnt
+PSH Flag Count,PSH_Flag_Cnt
+ACK Flag Count,ACK_Flag_Cnt
+URG Flag Count,URG_Flag_Cnt
+CWE Flag Count,CWE_Flag_Count
+ECE Flag Count,ECE_Flag_Cnt
+Down/Up Ratio,Down/Up_Ratio
+Avg Packet Size,Pkt_Size_Avg
+Avg Fwd Segment Size,Fwd_Seg_Size_Avg
+Avg Bwd Segment Size,Bwd_Seg_Size_Avg
+Fwd Avg Bytes/Bulk,Fwd_Byts/b_Avg
+Fwd Avg Packets/Bulk,Fwd_Pkts/b_Avg
+Fwd Avg Bulk Rate,Fwd_Blk_Rate_Avg
+Bwd Avg Bytes/Bulk,Bwd_Byts/b_Avg
+Bwd Avg Packets/Bulk,Bwd_Pkts/b_Avg
+Bwd Avg Bulk Rate,Bwd_Blk_Rate_Avg
+Subflow Fwd Packets,Subflow_Fwd_Pkts
+Subflow Fwd Bytes,Subflow_Fwd_Byts
+Subflow Bwd Packets,Subflow_Bwd_Pkts
+Subflow Bwd Bytes,Subflow_Bwd_Byts
+Init Fwd Win Bytes,Init_Fwd_Win_Byts
+Init Bwd Win Bytes,Init_Bwd_Win_Byts
+Fwd Act Data Packets,Fwd_Act_Data_Pkts
+Fwd Seg Size Min,Fwd_Seg_Size_Min
+Active Mean,Active_Mean
+Active Std,Active_Std
+Active Max,Active_Max
+Active Min,Active_Min
+Idle Mean,Idle_Mean
+Idle Std,Idle_Std
+Idle Max,Idle_Max
+Idle Min,Idle_Min

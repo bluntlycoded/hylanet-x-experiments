@@ -1,0 +1,15 @@
+,apt_exfil,http_flood,icmp_flood,insider_threat,modbus_abuse,modbus_fdi,normal_traffic,os_scan,port_scan,sql_injection,tcp_ack_flood,tcp_syn_flood,udp_flood,vuln_scan
+apt_exfil,557,0,0,0,0,0,0,0,0,0,0,0,0,0
+http_flood,0,3526,0,0,0,0,0,0,0,0,0,0,0,0
+icmp_flood,0,0,4643,0,0,0,0,0,0,0,0,0,0,0
+insider_threat,0,0,0,375,0,0,0,0,0,0,0,0,0,0
+modbus_abuse,0,0,0,0,148,0,1,0,0,0,0,0,0,0
+modbus_fdi,0,0,0,1,0,732,1,0,0,0,0,0,0,0
+normal_traffic,0,0,8,0,0,0,15535,442,1,0,1,3,0,707
+os_scan,0,0,0,0,0,0,20,47,0,0,0,0,0,55
+port_scan,0,0,0,0,0,0,0,0,368,0,0,22,0,0
+sql_injection,0,0,0,0,0,0,0,0,0,94,0,0,0,0
+tcp_ack_flood,0,0,0,0,0,0,0,0,0,0,1541,0,0,0
+tcp_syn_flood,0,0,0,0,0,0,0,0,8,0,0,1563,0,0
+udp_flood,0,0,0,0,0,0,0,0,0,0,0,0,25000,0
+vuln_scan,0,0,0,0,0,0,2,205,0,0,0,1,0,2903

@@ -1,0 +1,34 @@
+\begin{tabular}{llllrrrrrr}
+\toprule
+A & B & protocol & metric & pairs (dataset x seed) & mean A-B (points) & A better & tie & B better & Wilcoxon p \\
+\midrule
+HyLANET-X & RF & random & f1\_macro & 20 & 0.036000 & 13 & 0 & 7 & 0.277355 \\
+HyLANET-X & LGBM & random & f1\_macro & 20 & 0.016000 & 8 & 5 & 7 & 0.400095 \\
+HyLANET-X & FTA & random & f1\_macro & 20 & 7.664000 & 20 & 0 & 0 & 0.000002 \\
+HyLANET-X (stacked) & LGBM & random & f1\_macro & 20 & -1.080000 & 0 & 0 & 20 & 0.000002 \\
+HyLANET-X (original design) & LGBM-pca & random & f1\_macro & 20 & 0.086000 & 7 & 6 & 7 & 0.399476 \\
+RF+LGBM & LGBM & random & f1\_macro & 20 & 0.114000 & 15 & 0 & 5 & 0.001690 \\
+RF & LGBM & random & f1\_macro & 20 & -0.019000 & 8 & 0 & 12 & 0.521673 \\
+HyLANET-X & RF & random & acc & 20 & -0.207000 & 9 & 0 & 11 & 0.142906 \\
+HyLANET-X & LGBM & random & acc & 20 & -0.029000 & 5 & 5 & 10 & 0.075667 \\
+HyLANET-X & FTA & random & acc & 20 & 4.017000 & 20 & 0 & 0 & 0.000002 \\
+HyLANET-X (stacked) & LGBM & random & acc & 20 & -0.745000 & 0 & 0 & 20 & 0.000002 \\
+HyLANET-X (original design) & LGBM-pca & random & acc & 20 & -0.004000 & 7 & 6 & 7 & 0.985062 \\
+RF+LGBM & LGBM & random & acc & 20 & 0.141000 & 12 & 2 & 6 & 0.023882 \\
+RF & LGBM & random & acc & 20 & 0.179000 & 11 & 0 & 9 & 0.191295 \\
+HyLANET-X & RF & temporal & f1\_macro & 10 & 1.805000 & 5 & 0 & 5 & 0.695312 \\
+HyLANET-X & LGBM & temporal & f1\_macro & 10 & 1.154000 & 5 & 0 & 5 & 0.695312 \\
+HyLANET-X & FTA & temporal & f1\_macro & 10 & -0.092000 & 5 & 1 & 4 & 0.960938 \\
+HyLANET-X (stacked) & LGBM & temporal & f1\_macro & 10 & 3.870000 & 9 & 0 & 1 & 0.003906 \\
+HyLANET-X (original design) & LGBM-pca & temporal & f1\_macro & 10 & 0.674000 & 5 & 5 & 0 & 0.062500 \\
+RF+LGBM & LGBM & temporal & f1\_macro & 10 & 0.930000 & 9 & 1 & 0 & 0.003906 \\
+RF & LGBM & temporal & f1\_macro & 10 & -0.651000 & 6 & 0 & 4 & 1.000000 \\
+HyLANET-X & RF & temporal & acc & 10 & -2.508000 & 4 & 0 & 6 & 0.160156 \\
+HyLANET-X & LGBM & temporal & acc & 10 & -1.520000 & 4 & 0 & 6 & 0.160156 \\
+HyLANET-X & FTA & temporal & acc & 10 & 0.073000 & 5 & 2 & 3 & 0.523438 \\
+HyLANET-X (stacked) & LGBM & temporal & acc & 10 & 3.553000 & 8 & 0 & 2 & 0.009766 \\
+HyLANET-X (original design) & LGBM-pca & temporal & acc & 10 & 0.231000 & 5 & 5 & 0 & 0.062500 \\
+RF+LGBM & LGBM & temporal & acc & 10 & 1.085000 & 8 & 1 & 1 & 0.023438 \\
+RF & LGBM & temporal & acc & 10 & 0.987000 & 7 & 0 & 3 & 0.130859 \\
+\bottomrule
+\end{tabular}

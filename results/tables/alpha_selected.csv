@@ -1,0 +1,19 @@
+dataset,protocol,fusion,selected,median,runs_at_1,runs
+CICIDS2017,random,HyLANET-X,"0.80, 1.00, 0.80, 0.85, 0.85",0.85,1,5
+CICIDS2017,random,HyLANET-X (original design),"1.00, 0.90, 1.00, 0.85, 0.55",0.9,2,5
+CICIDS2017,random,RF+LGBM,"0.55, 0.45, 0.55, 0.20, 0.50",0.5,0,5
+IoTID20,random,HyLANET-X,"0.85, 0.95, 0.85, 1.00, 0.90",0.9,1,5
+IoTID20,random,HyLANET-X (original design),"0.90, 0.85, 1.00, 1.00, 0.80",0.9,2,5
+IoTID20,random,RF+LGBM,"0.45, 0.55, 0.50, 0.75, 0.70",0.55,0,5
+IoTID20,temporal,HyLANET-X,"0.20, 0.25, 0.15, 0.00, 0.60",0.2,0,5
+IoTID20,temporal,HyLANET-X (original design),"1.00, 1.00, 1.00, 1.00, 1.00",1.0,5,5
+IoTID20,temporal,RF+LGBM,"1.00, 1.00, 1.00, 1.00, 1.00",1.0,5,5
+SCADANet,random,HyLANET-X,"0.75, 0.70, 0.65, 0.60, 0.55",0.65,0,5
+SCADANet,random,HyLANET-X (original design),"0.50, 0.55, 0.55, 0.45, 0.55",0.55,0,5
+SCADANet,random,RF+LGBM,"0.90, 0.85, 0.75, 0.80, 0.70",0.8,0,5
+SCADANet,temporal,HyLANET-X,"0.20, 0.05, 0.80, 0.15, 0.15",0.15,0,5
+SCADANet,temporal,HyLANET-X (original design),"0.30, 0.50, 0.55, 0.45, 0.40",0.45,0,5
+SCADANet,temporal,RF+LGBM,"0.55, 0.05, 0.00, 0.45, 0.30",0.3,0,5
+TON_IoT,random,HyLANET-X,"0.90, 1.00, 1.00, 1.00, 0.95",1.0,3,5
+TON_IoT,random,HyLANET-X (original design),"1.00, 0.90, 1.00, 0.65, 0.90",0.9,2,5
+TON_IoT,random,RF+LGBM,"0.60, 0.50, 0.80, 0.90, 1.00",0.8,1,5

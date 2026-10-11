@@ -1,0 +1,401 @@
+{
+ "source": "CICIDS2017",
+ "target": "IoTID20",
+ "seed": 123,
+ "matched_features": [
+  [
+   "Protocol",
+   "Protocol"
+  ],
+  [
+   "Flow Duration",
+   "Flow_Duration"
+  ],
+  [
+   "Total Fwd Packets",
+   "Tot_Fwd_Pkts"
+  ],
+  [
+   "Total Backward Packets",
+   "Tot_Bwd_Pkts"
+  ],
+  [
+   "Fwd Packets Length Total",
+   "TotLen_Fwd_Pkts"
+  ],
+  [
+   "Bwd Packets Length Total",
+   "TotLen_Bwd_Pkts"
+  ],
+  [
+   "Fwd Packet Length Max",
+   "Fwd_Pkt_Len_Max"
+  ],
+  [
+   "Fwd Packet Length Min",
+   "Fwd_Pkt_Len_Min"
+  ],
+  [
+   "Fwd Packet Length Mean",
+   "Fwd_Pkt_Len_Mean"
+  ],
+  [
+   "Fwd Packet Length Std",
+   "Fwd_Pkt_Len_Std"
+  ],
+  [
+   "Bwd Packet Length Max",
+   "Bwd_Pkt_Len_Max"
+  ],
+  [
+   "Bwd Packet Length Min",
+   "Bwd_Pkt_Len_Min"
+  ],
+  [
+   "Bwd Packet Length Mean",
+   "Bwd_Pkt_Len_Mean"
+  ],
+  [
+   "Bwd Packet Length Std",
+   "Bwd_Pkt_Len_Std"
+  ],
+  [
+   "Flow Bytes/s",
+   "Flow_Byts/s"
+  ],
+  [
+   "Flow Packets/s",
+   "Flow_Pkts/s"
+  ],
+  [
+   "Flow IAT Mean",
+   "Flow_IAT_Mean"
+  ],
+  [
+   "Flow IAT Std",
+   "Flow_IAT_Std"
+  ],
+  [
+   "Flow IAT Max",
+   "Flow_IAT_Max"
+  ],
+  [
+   "Flow IAT Min",
+   "Flow_IAT_Min"
+  ],
+  [
+   "Fwd IAT Total",
+   "Fwd_IAT_Tot"
+  ],
+  [
+   "Fwd IAT Mean",
+   "Fwd_IAT_Mean"
+  ],
+  [
+   "Fwd IAT Std",
+   "Fwd_IAT_Std"
+  ],
+  [
+   "Fwd IAT Max",
+   "Fwd_IAT_Max"
+  ],
+  [
+   "Fwd IAT Min",
+   "Fwd_IAT_Min"
+  ],
+  [
+   "Bwd IAT Total",
+   "Bwd_IAT_Tot"
+  ],
+  [
+   "Bwd IAT Mean",
+   "Bwd_IAT_Mean"
+  ],
+  [
+   "Bwd IAT Std",
+   "Bwd_IAT_Std"
+  ],
+  [
+   "Bwd IAT Max",
+   "Bwd_IAT_Max"
+  ],
+  [
+   "Bwd IAT Min",
+   "Bwd_IAT_Min"
+  ],
+  [
+   "Fwd PSH Flags",
+   "Fwd_PSH_Flags"
+  ],
+  [
+   "Bwd PSH Flags",
+   "Bwd_PSH_Flags"
+  ],
+  [
+   "Fwd URG Flags",
+   "Fwd_URG_Flags"
+  ],
+  [
+   "Bwd URG Flags",
+   "Bwd_URG_Flags"
+  ],
+  [
+   "Fwd Header Length",
+   "Fwd_Header_Len"
+  ],
+  [
+   "Bwd Header Length",
+   "Bwd_Header_Len"
+  ],
+  [
+   "Fwd Packets/s",
+   "Fwd_Pkts/s"
+  ],
+  [
+   "Bwd Packets/s",
+   "Bwd_Pkts/s"
+  ],
+  [
+   "Packet Length Min",
+   "Pkt_Len_Min"
+  ],
+  [
+   "Packet Length Max",
+   "Pkt_Len_Max"
+  ],
+  [
+   "Packet Length Mean",
+   "Pkt_Len_Mean"
+  ],
+  [
+   "Packet Length Std",
+   "Pkt_Len_Std"
+  ],
+  [
+   "Packet Length Variance",
+   "Pkt_Len_Var"
+  ],
+  [
+   "FIN Flag Count",
+   "FIN_Flag_Cnt"
+  ],
+  [
+   "SYN Flag Count",
+   "SYN_Flag_Cnt"
+  ],
+  [
+   "RST Flag Count",
+   "RST_Flag_Cnt"
+  ],
+  [
+   "PSH Flag Count",
+   "PSH_Flag_Cnt"
+  ],
+  [
+   "ACK Flag Count",
+   "ACK_Flag_Cnt"
+  ],
+  [
+   "URG Flag Count",
+   "URG_Flag_Cnt"
+  ],
+  [
+   "CWE Flag Count",
+   "CWE_Flag_Count"
+  ],
+  [
+   "ECE Flag Count",
+   "ECE_Flag_Cnt"
+  ],
+  [
+   "Down/Up Ratio",
+   "Down/Up_Ratio"
+  ],
+  [
+   "Avg Packet Size",
+   "Pkt_Size_Avg"
+  ],
+  [
+   "Avg Fwd Segment Size",
+   "Fwd_Seg_Size_Avg"
+  ],
+  [
+   "Avg Bwd Segment Size",
+   "Bwd_Seg_Size_Avg"
+  ],
+  [
+   "Fwd Avg Bytes/Bulk",
+   "Fwd_Byts/b_Avg"
+  ],
+  [
+   "Fwd Avg Packets/Bulk",
+   "Fwd_Pkts/b_Avg"
+  ],
+  [
+   "Fwd Avg Bulk Rate",
+   "Fwd_Blk_Rate_Avg"
+  ],
+  [
+   "Bwd Avg Bytes/Bulk",
+   "Bwd_Byts/b_Avg"
+  ],
+  [
+   "Bwd Avg Packets/Bulk",
+   "Bwd_Pkts/b_Avg"
+  ],
+  [
+   "Bwd Avg Bulk Rate",
+   "Bwd_Blk_Rate_Avg"
+  ],
+  [
+   "Subflow Fwd Packets",
+   "Subflow_Fwd_Pkts"
+  ],
+  [
+   "Subflow Fwd Bytes",
+   "Subflow_Fwd_Byts"
+  ],
+  [
+   "Subflow Bwd Packets",
+   "Subflow_Bwd_Pkts"
+  ],
+  [
+   "Subflow Bwd Bytes",
+   "Subflow_Bwd_Byts"
+  ],
+  [
+   "Init Fwd Win Bytes",
+   "Init_Fwd_Win_Byts"
+  ],
+  [
+   "Init Bwd Win Bytes",
+   "Init_Bwd_Win_Byts"
+  ],
+  [
+   "Fwd Act Data Packets",
+   "Fwd_Act_Data_Pkts"
+  ],
+  [
+   "Fwd Seg Size Min",
+   "Fwd_Seg_Size_Min"
+  ],
+  [
+   "Active Mean",
+   "Active_Mean"
+  ],
+  [
+   "Active Std",
+   "Active_Std"
+  ],
+  [
+   "Active Max",
+   "Active_Max"
+  ],
+  [
+   "Active Min",
+   "Active_Min"
+  ],
+  [
+   "Idle Mean",
+   "Idle_Mean"
+  ],
+  [
+   "Idle Std",
+   "Idle_Std"
+  ],
+  [
+   "Idle Max",
+   "Idle_Max"
+  ],
+  [
+   "Idle Min",
+   "Idle_Min"
+  ]
+ ],
+ "n_target": 157905,
+ "in_domain": {
+  "RF": {
+   "acc": 0.9983407595219896,
+   "bal_acc": 0.9983470644924752,
+   "prec_macro": 0.9983192884860995,
+   "rec_macro": 0.9983470644924752,
+   "f1_macro": 0.998333133923766,
+   "f1_weighted": 0.9983407826426016,
+   "roc_auc_macro": 0.9999248667900417,
+   "pr_auc_macro": 0.9999052825732061
+  },
+  "LGBM": {
+   "acc": 0.9989746266708924,
+   "bal_acc": 0.9989533670868396,
+   "prec_macro": 0.9989864546680007,
+   "rec_macro": 0.9989533670868396,
+   "f1_macro": 0.9989698513772909,
+   "f1_weighted": 0.9989746096723118,
+   "roc_auc_macro": 0.9999760456021509,
+   "pr_auc_macro": 0.9999757160446305
+  },
+  "FTA": {
+   "acc": 0.9939036894796697,
+   "bal_acc": 0.9940089186074933,
+   "prec_macro": 0.9937530201010246,
+   "rec_macro": 0.9940089186074933,
+   "f1_macro": 0.9938771111231541,
+   "f1_weighted": 0.9939044791591926,
+   "roc_auc_macro": 0.9997109640699744,
+   "pr_auc_macro": 0.9997101078480687
+  },
+  "HyLANET-X": {
+   "acc": 0.9989746266708924,
+   "bal_acc": 0.9989533670868396,
+   "prec_macro": 0.9989864546680007,
+   "rec_macro": 0.9989533670868396,
+   "f1_macro": 0.9989698513772909,
+   "f1_weighted": 0.9989746096723118,
+   "roc_auc_macro": 0.9999760456021509,
+   "pr_auc_macro": 0.9999757160446305
+  }
+ },
+ "transfer": {
+  "RF": {
+   "acc": 0.18039327443716158,
+   "bal_acc": 0.47870107353900077,
+   "prec_macro": 0.4097745514953835,
+   "rec_macro": 0.47870107353900077,
+   "f1_macro": 0.1651323463661232,
+   "f1_weighted": 0.0905533081638887,
+   "roc_auc_macro": 0.3733363466684596,
+   "pr_auc_macro": 0.4601195331931089
+  },
+  "LGBM": {
+   "acc": 0.16970330261866312,
+   "bal_acc": 0.500038133589591,
+   "prec_macro": 0.5848253586244023,
+   "rec_macro": 0.500038133589591,
+   "f1_macro": 0.14512017468421967,
+   "f1_weighted": 0.04933713997053173,
+   "roc_auc_macro": 0.3873684435076727,
+   "pr_auc_macro": 0.4800921505819003
+  },
+  "FTA": {
+   "acc": 0.3390709603875748,
+   "bal_acc": 0.5658421305675282,
+   "prec_macro": 0.5579048403823709,
+   "rec_macro": 0.5658421305675282,
+   "f1_macro": 0.3384496875604279,
+   "f1_weighted": 0.351844607033265,
+   "roc_auc_macro": 0.4173717518553064,
+   "pr_auc_macro": 0.485210714273783
+  },
+  "HyLANET-X": {
+   "acc": 0.16970330261866312,
+   "bal_acc": 0.500038133589591,
+   "prec_macro": 0.5848253586244023,
+   "rec_macro": 0.500038133589591,
+   "f1_macro": 0.14512017468421967,
+   "f1_weighted": 0.04933713997053173,
+   "roc_auc_macro": 0.3873684435076727,
+   "pr_auc_macro": 0.4800921505819003
+  }
+ },
+ "alpha": 1.0
+}

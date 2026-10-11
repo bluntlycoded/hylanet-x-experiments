@@ -1,0 +1,31 @@
+\begin{tabular}{llrl}
+\toprule
+dataset & step & rows & note \\
+\midrule
+CICIDS2017 & raw rows in the source files & 2313810 & 8 files \\
+CICIDS2017 & after removing empty rows & 2313810 & removed 0 \\
+CICIDS2017 & after removing excluded labels & 2313763 & Heartbleed (11); Infiltration (36) \\
+CICIDS2017 & rows with a label & 2313763 &  \\
+CICIDS2017 & text columns & 0 & kept 0 as categories \\
+CICIDS2017 & after removing exact duplicates & 2231759 & removed 82,004 \\
+CICIDS2017 & after removing feature vectors with conflicting labels & 2231219 & removed 540 \\
+CICIDS2017 & after per-class cap of 100,000 (seed 0) & 214555 & removed 2,016,664 \\
+TON\_IoT & raw rows & 211043 & 1 file(s) \\
+TON\_IoT & rows with a label & 211043 &  \\
+TON\_IoT & text columns & 24 & kept 24 as categories \\
+TON\_IoT & after removing exact duplicates & 105621 & removed 105,422 \\
+TON\_IoT & after removing feature vectors with conflicting labels & 105283 & removed 338 \\
+IoTID20 & raw rows & 625783 & 1 file(s) \\
+IoTID20 & rows with a label & 625783 &  \\
+IoTID20 & text columns & 0 & kept 0 as categories \\
+IoTID20 & after removing exact duplicates & 169467 & removed 456,316 \\
+IoTID20 & after removing feature vectors with conflicting labels & 157905 & removed 11,562 \\
+IoTID20 & after per-class cap of 100,000 (seed 0) & 157905 & removed 0 \\
+SCADANet & raw rows & 534841 & 1 file(s) \\
+SCADANet & rows with a label & 534841 &  \\
+SCADANet & text columns & 25 & kept 23 as categories; removed 2 with more than 1000 values: ['Info', 'Tcp\_payload'] \\
+SCADANet & after removing exact duplicates & 475777 & removed 59,064 \\
+SCADANet & after removing feature vectors with conflicting labels & 470852 & removed 4,925 \\
+SCADANet & after per-class cap of 100,000 (seed 0) & 234039 & removed 236,813 \\
+\bottomrule
+\end{tabular}

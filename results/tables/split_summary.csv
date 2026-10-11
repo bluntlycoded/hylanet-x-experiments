@@ -1,0 +1,7 @@
+dataset,protocol,classes,train,validation,test,features used,PCA components (95%),text columns kept,columns dropped,test rows matching a train row
+CICIDS2017,random,6,128733,32183,53639,67,24,0,0,3991
+IoTID20,random,5,94743,23685,39477,68,23,0,0,601
+IoTID20,temporal,5,93958,22900,39477,68,22,0,0,23
+SCADANet,random,14,140423,35106,58510,40,22,23,7,27648
+SCADANet,temporal,14,139264,33940,58511,40,23,23,7,20807
+TON_IoT,random,10,63169,15792,26322,39,21,24,0,19879

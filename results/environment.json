@@ -1,0 +1,18 @@
+{
+  "python": "3.10.20",
+  "platform": "Linux-6.8.0-110-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "cpu_count": 256,
+  "gpus": [
+    "NVIDIA L4",
+    "NVIDIA L4"
+  ],
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scikit-learn": "1.7.2",
+  "lightgbm": "4.7.0",
+  "optuna": "5.0.0",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "parallel_workers": 2
+}

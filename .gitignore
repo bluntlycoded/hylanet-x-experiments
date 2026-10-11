@@ -1,0 +1,7 @@
+# datasets and local outputs are not tracked
+data/
+hylanet_outputs*/
+*.parquet
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

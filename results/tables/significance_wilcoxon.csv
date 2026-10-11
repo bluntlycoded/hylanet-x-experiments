@@ -1,0 +1,29 @@
+A,B,protocol,metric,pairs (dataset x seed),mean A-B (points),A better,tie,B better,Wilcoxon p
+HyLANET-X,RF,random,f1_macro,20,0.036,13,0,7,0.2773551940917969
+HyLANET-X,LGBM,random,f1_macro,20,0.016,8,5,7,0.40009460169493405
+HyLANET-X,FTA,random,f1_macro,20,7.664,20,0,0,1.9073486328125e-06
+HyLANET-X (stacked),LGBM,random,f1_macro,20,-1.08,0,0,20,1.9073486328125e-06
+HyLANET-X (original design),LGBM-pca,random,f1_macro,20,0.086,7,6,7,0.3994758184259215
+RF+LGBM,LGBM,random,f1_macro,20,0.114,15,0,5,0.001689910888671875
+RF,LGBM,random,f1_macro,20,-0.019,8,0,12,0.5216732025146484
+HyLANET-X,RF,random,acc,20,-0.207,9,0,11,0.14290618896484375
+HyLANET-X,LGBM,random,acc,20,-0.029,5,5,10,0.07566712953403203
+HyLANET-X,FTA,random,acc,20,4.017,20,0,0,1.9073486328125e-06
+HyLANET-X (stacked),LGBM,random,acc,20,-0.745,0,0,20,1.9073486328125e-06
+HyLANET-X (original design),LGBM-pca,random,acc,20,-0.004,7,6,7,0.9850616764898975
+RF+LGBM,LGBM,random,acc,20,0.141,12,2,6,0.023882134259345145
+RF,LGBM,random,acc,20,0.179,11,0,9,0.19129516096102428
+HyLANET-X,RF,temporal,f1_macro,10,1.805,5,0,5,0.6953125
+HyLANET-X,LGBM,temporal,f1_macro,10,1.154,5,0,5,0.6953125
+HyLANET-X,FTA,temporal,f1_macro,10,-0.092,5,1,4,0.9609375
+HyLANET-X (stacked),LGBM,temporal,f1_macro,10,3.87,9,0,1,0.00390625
+HyLANET-X (original design),LGBM-pca,temporal,f1_macro,10,0.674,5,5,0,0.0625
+RF+LGBM,LGBM,temporal,f1_macro,10,0.93,9,1,0,0.00390625
+RF,LGBM,temporal,f1_macro,10,-0.651,6,0,4,1.0
+HyLANET-X,RF,temporal,acc,10,-2.508,4,0,6,0.16015625
+HyLANET-X,LGBM,temporal,acc,10,-1.52,4,0,6,0.16015625
+HyLANET-X,FTA,temporal,acc,10,0.073,5,2,3,0.5234375
+HyLANET-X (stacked),LGBM,temporal,acc,10,3.553,8,0,2,0.009765625
+HyLANET-X (original design),LGBM-pca,temporal,acc,10,0.231,5,5,0,0.0625
+RF+LGBM,LGBM,temporal,acc,10,1.085,8,1,1,0.0234375
+RF,LGBM,temporal,acc,10,0.987,7,0,3,0.130859375

@@ -1,0 +1,27 @@
+\begin{tabular}{llllr}
+\toprule
+Model & Hyperparameter & Search range & First-submission value & Trials \\
+\midrule
+Random Forest & n\_estimators & 100-400, step 50 & 100 & 20 \\
+Random Forest & max\_depth & none, 16, 24, 32 & none & 20 \\
+Random Forest & min\_samples\_leaf & 1-5 & 1 & 20 \\
+Random Forest & max\_features & sqrt, 0.3, 0.5 & sqrt & 20 \\
+LightGBM & learning\_rate & 0.01-0.2 (log) & 0.050000 & 30 \\
+LightGBM & num\_leaves & 15-255 (log) & 64 & 30 \\
+LightGBM & max\_depth & none, 6, 10, 16 & 10 & 30 \\
+LightGBM & min\_child\_samples & 5-200 (log) & 20 & 30 \\
+LightGBM & subsample & 0.6-1.0 & 0.800000 & 30 \\
+LightGBM & colsample\_bytree & 0.5-1.0 & 0.800000 & 30 \\
+LightGBM & reg\_lambda & 0.001-10 (log) & 0.001000 & 30 \\
+Linear SVM & C & 0.001-10 (log) & 1.000000 & 5 \\
+MLP & learning rate & 3e-4 to 3e-3 (log) & 1e-3 & 8 \\
+MLP & width (2 hidden layers) & 64, 100, 256 & 100 & 8 \\
+MLP & dropout & 0-0.3 & 0.000000 & 8 \\
+CNN-BiLSTM-Tr & learning rate & 3e-4 to 3e-3 (log) & 1e-3 & 6 \\
+CNN-BiLSTM-Tr & dropout & 0.1-0.3 & 0.200000 & 6 \\
+FTA & learning rate & 3e-4 to 3e-3 (log) & 1e-3 & 10 \\
+FTA & token size & 16, 32, 64 & 32 & 10 \\
+FTA & attention blocks & 1-3 & 2 & 10 \\
+FTA & dropout & 0-0.2 & 0.100000 & 10 \\
+\bottomrule
+\end{tabular}
